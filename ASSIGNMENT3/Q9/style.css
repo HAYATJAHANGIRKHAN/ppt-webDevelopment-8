@@ -1,0 +1,24 @@
+.student-dashboard {
+    width: 100%;
+    overflow-x: auto; /* Enable horizontal scroll on small screens */
+    background-color: dimgray;
+  }
+  
+  #student-details-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #student-details-table th,
+  #student-details-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  @media screen and (min-width: 768px) {
+    /* Styles for large screens */
+    .student-dashboard {
+      overflow-x: visible; /* Disable horizontal scroll on large screens */
+    }
+  }
+  
